@@ -1,0 +1,18 @@
+body{background-color: lightgoldenrodyellow;}
+<title>Style test</title>
+<style type="text/css">
+h1{font-size: 30px; 
+color: salmon;
+}
+h2{font-size: 20px;
+color: red;
+font-style:oblique; 
+}
+h2{color: green;
+}
+.big{font-size: 60px;}
+.uppercase{color:navy;
+text-transform: uppercase;}
+.big.uppercase{color:yellow;}
+h1 span{color:violet;}			
+</style>

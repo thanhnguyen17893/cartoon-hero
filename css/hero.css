@@ -2,12 +2,15 @@ body{
 	margin: 0;
 	background-color: white;
 	font-family: chilanka;
+	font-size: 20px;
+	line-height: 30px;
 	}
 header{
 	background-color: #d14653;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:0;
 }
 
 header h1 {
@@ -25,3 +28,54 @@ h1, h2 {
 	font-family: piedra;
 	color:red;
 }
+/*padding size: top bot right left*/
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+/* sizes : top (right left) bot (for margin) */;
+h2{
+	font-size: 30px;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: red;
+}
+a:hover{
+	color: white;
+	background-color: purple;
+}
+
+footer{
+	background-color: #d14653;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+/* a here means anchor element - the link of the footer */
+footer a{ 
+	color: white; 
+}
+
+footer a:hover{
+	color:yellow;
+	background-color: black;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
+
